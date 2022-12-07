@@ -4,21 +4,17 @@
 
 Dead simple plugin to center the current buffer to the middle of the screen.
 
-## Why an other focus-zen-center-buffer plugin?
-
-While there's many other (amazing!) plugins that does similar stuff, they all require some configuration or alter your NeoVim workflow.
-
-In my case, I only wanted a plugin that: **center the current buffer**.
+![Preview](https://imgur.com/J7AVlBP)
 
 ## Installation
 
-### packer.nvim
+### Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
 use {'shortcuts/no-neck-pain.nvim'}
 ```
 
-### vim-plug
+### Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```lua
 Plug 'shortcuts/no-neck-pain.nvim'
@@ -48,3 +44,9 @@ vim.api.nvim_create_autocmd({ "VimEnter" }, {
 	end,
 })
 ```
+
+## Why an other focus-zen-center-buffer plugin?
+
+While there's many other (amazing!) plugins that does similar stuff, they all require some configuration or alter your NeoVim workflow.
+
+In my case, I only wanted a plugin that: **center the current buffer**.
