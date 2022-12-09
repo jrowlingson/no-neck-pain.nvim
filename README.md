@@ -8,7 +8,7 @@ Dead simple plugin to center the current buffer to the middle of the screen.
 
 While there's many other (amazing!) plugins that does similar stuff, they all require some configuration or alter your NeoVim workflow.
 
-In my case, I only wanted a plugin that: **center the current buffer**.
+In my case, I only wanted a plugin that: **centers the current buffer**.
 
 ## Installation
 
